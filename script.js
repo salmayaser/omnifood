@@ -1,6 +1,7 @@
 const closeBtn = document.querySelector('ion-icon[name = "close-outline"]');
 const menuBtn = document.querySelector('ion-icon[name = "menu-outline"]');
 const header = document.querySelector("header");
+const year = document.querySelector(".year");
 
 function openMenu() {
   header.classList.add("nav-open");
@@ -20,4 +21,8 @@ menuBtn.addEventListener("click", () => {
 
 closeBtn.addEventListener("click", () => {
   closeMenu();
+});
+
+window.addEventListener("load", () => {
+  year.textContent = new Date().getFullYear();
 });
