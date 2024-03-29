@@ -104,6 +104,7 @@
   .nav-open .main-nav {
     opacity: 1;
     visibility: visible;
+    pointer-events: all;
   }
 }
 
