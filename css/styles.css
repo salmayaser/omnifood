@@ -16,6 +16,19 @@
 
 /* navigation */
 
+.sticky .header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  height: 8rem;
+  z-index: 3;
+}
+
+.sticky .hero-section {
+  margin-top: 9.6rem;
+}
 .main-nav-list {
   display: flex;
   list-style-type: none;
