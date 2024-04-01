@@ -3,12 +3,12 @@
     {
       "src": "./content/img/android1.png",
       "type": "image/png",
-      "size": "192x192"
+      "sizes": "192x192"
     },
     {
       "src": "./content/img/android2.png",
       "type": "image/png",
-      "size": "512x512"
+      "sizes": "512x512"
     }
   ]
 }
